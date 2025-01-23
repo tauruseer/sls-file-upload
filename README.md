@@ -1,4 +1,4 @@
-# SLS Pipelien Uploader
+# SLS Pipeline Uploader
 
 This GitHub Action uploads results from CycloneDX or Sarif files to SLS in your pipeline..
 
