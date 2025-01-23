@@ -8,8 +8,9 @@ This GitHub Action uploads results from CycloneDX or Sarif files to SLS in your 
 |-----------------|------------------------------------------------------------|----------|---------------------|
 | `scan-key`      | The asset identifier found in the asset details page       | Yes      |                     |
 | `api-key`       | The users API key for the SLS public API                   | Yes      |                     |
-| `file-path`     | The path to the file being uploaded                        | Yes      |                     |
+| `file-path`     | The path to the file being uploaded [^1]                   | Yes      |                     |
 
+[^1]: The upload will accept CycloneDX or Sarif files
 
 ## Example Usage
 
