@@ -44,4 +44,4 @@ jobs:
       with:
         scan-key: ${{ secrets.SLS_SCAN_KEY }}
         api-key: ${{ secrets.SLS_API_KEY }}
-        file-path: ${{ file to be uploaded }}
+        file-path: "path\to\file.json"
