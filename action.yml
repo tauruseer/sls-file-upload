@@ -1,0 +1,21 @@
+name: 'SLS File Upload'
+description: 'An extension to upload CycloneDX or Sarif files to SLS in your pipeline.'
+author: 'Start Left Security'
+branding:
+  icon: 'shield'
+  color: 'blue'
+
+inputs:
+  scan-key:
+    description: 'The asset scan key found in the Asset Details page'
+    required: true
+  api-key:
+    description: 'SLS Public API Key'
+    required: true
+  file-path:
+    description: 'The path to the file to upload'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'
