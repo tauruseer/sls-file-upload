@@ -40,7 +40,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Upload files to SLS
-      uses: tauruseer/sls-file-upload@1.0.0
+      uses: tauruseer/sls-file-upload@1.2.0
       with:
         scan-key: ${{ secrets.SLS_SCAN_KEY }}
         api-key: ${{ secrets.SLS_API_KEY }}
