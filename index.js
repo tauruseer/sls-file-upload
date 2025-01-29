@@ -26,7 +26,7 @@ const run = async () => {
 
     console.log('File uploaded successfully:', response.data);
   } catch (error) {
-    core.setFailed(`Action failed with error: ${error}`);
+    core.setFailed(`Action failed with error: ${error.messaage}`);
   }
 };
 
