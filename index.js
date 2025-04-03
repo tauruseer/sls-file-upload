@@ -5,7 +5,7 @@ const FormData = require('form-data');
 
 const run = async () => {
   try {
-    const apiEndpoint = 'https://api.startleft.security/api/v1/ScannerAction/upload-file';
+    const apiEndpoint = 'https://api.startleft.security/v1/scanner/upload-file';
 
     const apiKey = core.getInput('api-key');
     const scanKey = core.getInput('scan-key');
